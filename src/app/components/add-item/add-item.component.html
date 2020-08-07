@@ -1,0 +1,10 @@
+<div>
+  <label for="title">Title</label>
+  <input type="text" [(ngModel)]="title"  placeholder="title" id="title">
+</div>
+
+<div>
+  <label for="price">Price</label>
+  <input type="number" [(ngModel)]="price" min="0" placeholder="price" id="price">
+</div>
+<button type="button" (click)="AddItem()">Add</button>

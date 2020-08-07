@@ -1,0 +1,23 @@
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 15px;
+    &:last-child{
+      text-align: center;
+    }
+  }
+  .close{
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    background-color: red;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+  }
+}
